@@ -1,0 +1,41 @@
+.middle {
+  padding: 1rem;
+  background: #fff;
+}
+
+h1 {
+  text-align: center;
+}
+span {
+  color: rgb(242, 59, 59);
+  font-weight: bolder;
+}
+.img2 {
+  float: right;
+  padding-left: 55px;
+  border-bottom-right-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.img3 {
+  float: left;
+  padding-left: 5px;
+  padding-right: 55px;
+  border-bottom-left-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.clearfix,
+.clearfix-2 {
+  padding: 40px 125px 120px;
+  font-weight: 100;
+}
+.clearfix .middle-p-text,
+.clearfix-2 .middle-p-text {
+  font-size: 15px;
+  opacity: 0.6;
+}
+.clearfix::after,
+.clearfix-2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
