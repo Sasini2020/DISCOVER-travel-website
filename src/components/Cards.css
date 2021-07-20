@@ -94,11 +94,18 @@ h1 {
 }
 
 .cards__item__text {
-  color: #252e48;
+  color: rgb(242, 59, 59);
+  opacity: 0.7;
+  font-weight: bolder;
   font-size: 18px;
   line-height: 24px;
 }
-
+.cards__item__smalltext {
+  color: #242424;
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 20px;
+}
 @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;

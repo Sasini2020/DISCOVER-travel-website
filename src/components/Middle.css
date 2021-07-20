@@ -39,3 +39,15 @@ span {
   clear: both;
   display: table;
 }
+
+@media screen and (max-width: 820px) {
+  .img2 {
+    max-width: 400px;
+    height: auto;
+    margin-right: -90px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
