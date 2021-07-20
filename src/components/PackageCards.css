@@ -51,7 +51,7 @@
   margin: 20px;
   padding: 20px;
   width: 300px;
-  max-height: 150px;
+  max-height: 200px;
   display: grid;
   grid-template-rows: 20px 50px 1fr 50px;
   border-radius: 10px;
@@ -66,23 +66,31 @@
 
 .card__exit {
   grid-row: 1/2;
+  font-size: 10px;
+  color: #fff;
   justify-self: end;
 }
 
 .card__icon {
   grid-row: 2/3;
-  font-size: 30px;
+  font-size: 10px;
+  color: yellow;
 }
 
 .card__title {
   grid-row: 3/4;
-  font-size: 18px;
+  padding-top: -10px;
+  font-size: 14px;
   color: #ffffff;
 }
 
 .card__apply {
   grid-row: 4/5;
+  font-size: 12px;
   align-self: center;
+  color: #fff;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
 
 .card-1 {
@@ -100,21 +108,64 @@
 }
 
 .card-2 {
-  background: radial-gradient(#5a5757, #fff);
+  background: radial-gradient(#f1f0f0, #fff);
 }
 
 .card-3 {
-  background: radial-gradient(#76b2fe, #b69efe);
+  background: #1d4350; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #a43931,
+    #1d4350
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a43931,
+    #1d4350
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .card-4 {
-  background: radial-gradient(#60efbc, #58d5c9);
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .card-5 {
-  background: radial-gradient(#f588d8, #c0a3e5);
+  background: #136a8a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #267871,
+    #136a8a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #267871,
+    #136a8a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.card-6 {
+  background: #360033; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0b8793,
+    #360033
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0b8793,
+    #360033
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 @media (max-width: 1600px) {
   .card-container {
     justify-content: center;
