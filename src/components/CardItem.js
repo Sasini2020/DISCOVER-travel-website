@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Button } from './Button';
 
 function CardItem(props) {
   return (
@@ -14,7 +15,14 @@ function CardItem(props) {
             />
           </figure>
           <div className='cards__item__info'>
-            <h5 className='cards__item__text'>{props.text}</h5>
+          <center>
+            <h5 className='cards__item__text'><i className='fas fa-map-marked-alt'></i>&nbsp;&nbsp;{props.text}</h5>
+            <br></br>
+            <p className='cards__item__smalltext'>{props.smalltext}</p>
+            <br></br>
+            <Button className='cards__item__butt' buttonStyle='btn--outline--black'>{props.butt}</Button>
+          </center>
+          <br></br>
           </div>
         </Link>
       </li>
