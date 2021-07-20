@@ -21,7 +21,7 @@ function Offers() {
         
         <a href="/" class="data-card">
             <h3>$ 70</h3>
-            <h4>Charming Sri Lanka</h4>
+            <h4>Around Sri Lanka</h4>
             <p>Aenean lacinia bibendum nulla sed consectetur.</p>
             <span class="link-text">
             View Information
@@ -34,7 +34,7 @@ function Offers() {
         <a href="/" class="data-card">
             <h3>$ 90</h3>
             <h4>Hill Country Tour</h4>
-            <p>Etiam porta sem malesuada.</p>
+            <p>Aenean lacinia bibendum nulla sed consectetur.</p>
             <span class="link-text">
             View Information
             <svg width="25" height="16" viewBox="0 0 25 16" fill="none" xmlns="http://www.w3.org/2000/svg">
