@@ -1,9 +1,11 @@
 import React from 'react';
 import './SignUpForm.css';
+import { Button } from './Button';
 
 
 function SignUpForm() {
     return (
+      
         <div id="login-box">
         <div class="left">
           <h1>Sign up</h1>
@@ -12,8 +14,8 @@ function SignUpForm() {
           <input type="text" name="email" placeholder="E-mail" />
           <input type="password" name="password" placeholder="Password" />
           <input type="password" name="password2" placeholder="Retype password" />
-          
-          <input type="submit" name="signup_submit" value="Sign me up" />
+          <br></br>
+          <Button buttonStyle='btn--outline--black'>SIGN ME UP</Button>
         </div>
         
         <div class="right">
